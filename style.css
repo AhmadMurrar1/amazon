@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+/* Header ---------------------------*/
+header {
+    width: 100%;
+    height: 3.3rem;
+    background-color: #131921;
+    display: flex;
+    color: white;
+    padding: 4px;
+    
+}
+svg {
+    width: 1rem;
+    height: 1rem;
+}
+/* logo */
+#amazon-logo {
+    padding: 15px 10px 10px 10px;
+    
+    
+}
+#amazon-logo:hover {
+    border: 1px solid white;
+}
+/* location */
+.location {
+    padding:1rem;
+    color: #333333;
+    font-size: 13px;
+}
+.location p {
+    color: #C5C5C5;
+}
+.location span {
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+.location svg {
+    width: 20px;
+}
+.location:hover {
+    border: 1px solid white;
+}
+/* search */
+#search {
+    width: 55rem;
+    padding: 10px;
+    display: flex;
+}
+#All {
+    height: 2.45rem;
+    border-radius: 5px 0px 0px 5px;
+    width: 2.45rem;
+}
+#search input {
+    width: 50rem;
+    height: 2.25rem;
+    
+}
+#search svg {
+    background-color: #FEBD69;
+    width: 1.5rem;
+    height: 2.1rem;
+    padding: 5px 10px 1px 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* country */
+#country {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+#country p{
+    font-size: 15px;
+    font-weight: bold; 
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+#country svg {
+    width: 20px;
+    height: 20px;
+}
+#country select {
+    background-color: #131921;
+    color: white;
+    border: none;
+    padding-left: 1px;
+    padding-top: 1rem;
+}
+#country:hover {
+    border: 1px solid white;
+}
+/* accounts */
+#accounts {
+    padding: 10px;
+}
+#accounts p {
+    font-size:13px;
+    font-weight: normal;
+}
+#accounts span {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+}
+#accounts select {
+    background-color: #131921;
+    color: white;
+    border: none;
+}
+#accounts:hover {
+    border: 1px solid white;
+}
+/* Returns */
+#Returns {
+    padding: 8px;
+    font-size:13px;
+    padding-top: 10px;
+    
+}
+#Returns span {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+}
+#Returns:hover {
+    border: 1px solid white;
+}
+/* below the header ----------------*/
+.below-header {
+    width: 100%;
+    height: 2rem;
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    padding: 2px;
+}
+.below-one {
+    padding: 5px;
+    margin-left: 10px;
+}
+.below-one:hover {
+    border: 1px solid white;
+}
+/* last-nav */
+.last-nav ul{
+    display: flex;
+    list-style-type: none;
+    color: #565959;
+    font-size: 12px;
+    padding: 5px;
+}
+.last-nav a {
+    color: #565959;
+    padding: 5px;
+}
+/* Main ----------------------- */
+main {
+    display: flex;
+}
+.first-one {
+    display: flex;
+    flex-direction: row;
+}
+#main-one {
+    display: flex;
+    flex-direction: column;
+}
+#main-one img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 13px 10px 5px 15px;
+    cursor: pointer;
+}
+#main-two img {
+    width: 300px;
+    height: 300px;
+    border: none;
+    margin-left: 100px;
+    margin-top: -400px;
+    position:absolute;
+    display: block;
+}
+#main-info {
+    width: 40rem;
+    margin-left: 22rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+#main-info a {
+    color: #007185;
+    display: block;
+    font-size: 15px;
+}
+/* rating */
+.stars {
+    display: flex;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+}
+.stars select{
+    border: none;
+}
+.stars a {
+    margin-left: 20px;
+}
+/* ------- */
+.price {
+    font-size: 14px;
+    line-height: 2rem;
+}
+.price p#par1{
+    padding-left: 7px;
+    font-size: 28px;
+    display: flex;
+}
+.price span {
+    font-size:13px ;
+    margin-top: 1px;
+    position: absolute;
+    
+}
+.price .par2 {
+    display: flex;
+    padding-left: 2px;
+}
+.price .par2 a{
+    padding-left: 3px;
+    color: #007185;
+    
+}
+.price .par2 time {
+    font-weight: 700;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #565959;
+}
+.price .par2 select{
+    border: none;
+    color: #565959;
+}
+/* first-ul */
+.first-ul {
+    margin-top: 14px;
+    display: flex;
+    width: 15rem;
+    display: inline-block;
+}
+.first-ul ul {
+    line-height: 20px;
+    font-size: 14px;
+    list-style-type: none;
+    font-weight: 700;
+}
+.second-ul {
+    font-size: 14px;
+    list-style-type: none;
+    font-weight: 400;
+    width: 10rem;
+    padding-left: 200px;
+    margin-top:-145px;
+    position:absolute;
+    list-style-type:none;
+    width: 27.5rem;
+    border-bottom: 1px solid gray;
+    
+}
+.second-ul li {
+    list-style-type: none;
+    line-height: 21px;
+    
+}
+/* payment */
+.payment {
+    width: 14rem;
+    height: 25rem;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 24px;
+}
+.payment-2 {
+    line-height: 15px;
+    margin-top: 10px;
+}
+.payment-2 select {
+    border: none;
+    margin-left: 10px;
+}
+.payment-2 time {
+    color: #565959;
+    font-weight: 600;
+}
+.payment-2 a {
+    color: #007185;
+}
+.payment-3 {
+    line-height: 20px;
+}
+.payment-3 time {
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+
+}
+.payment-4 {
+    color: black;
+}
+.payment-4 a {
+    color: #007185;
+}
+.payment-5 {
+    font-size: 22px;
+    color: green;
+}
+.payment-6 button{
+    padding: 10px;
+    background-color: #F7CA00;
+    border-radius: 25px;
+    width: 13rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+.payment-6 button:hover {
+    background-color: #eccd43;
+}
+.payment-7 button{
+    padding: 10px;
+    background-color: #FA8900;
+    border-radius: 25px;
+    width: 13rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.payment-7 button:hover {
+    background-color: #e48e32;
+}
